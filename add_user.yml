@@ -1,6 +1,7 @@
 ---
-- name: Creating new user
+- name: Starting Template Windows Host
   hosts: all
+  gather_facts: no
   
   tasks:
   - name: add user name
