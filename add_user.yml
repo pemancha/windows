@@ -8,7 +8,7 @@
     groups:
       - Users
 
-- name: Ensure user remove is absent
-  win_user:
-    name: (( user_del }}
-    state: absent
+#- name: Ensure user remove is absent
+#  win_user:
+#    name: (( user_del }}
+#    state: absent
