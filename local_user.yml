@@ -1,4 +1,4 @@
----
+--- 
 - hosts: all
   tasks:
 
@@ -8,5 +8,3 @@
       fullname: "{{ local_account_fullname }}"
       password: "{{ local_account_password }}"
       state: present
-      groups:
-        - Administrators
