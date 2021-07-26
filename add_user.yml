@@ -5,8 +5,7 @@
     name: "{{ user_name }}"
     password: "{{ user_password }}"
     state: present
-    groups:
-      - Users
+
 
 #- name: Ensure user remove is absent
 #  win_user:
