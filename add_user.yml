@@ -2,8 +2,8 @@
 - name: Ensure user bob is present
   hosts: all
   win_user:
-    name: "{{ user_name }}"
-    password: "{{ user_password }}"
+    user_name: "{{ user_name }}"
+    user_password: "{{ user_password }}"
     state: present
 
 
